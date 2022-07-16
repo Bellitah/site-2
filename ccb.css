@@ -1,0 +1,236 @@
+body {
+	font-family: 'Bebas Neue', cursive;
+    font-family: 'Mulish', sans-serif;
+    background: #27211e;
+}
+
+main {
+    background: #312824;
+    margin: -8px;
+}
+
+h1 {
+    padding: 30px ;
+    margin: -8px 0 -12px 0;
+    letter-spacing: .1rem;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+nav {
+ 	position: absolute;
+ 	top: 43px;
+ 	right: 50px;
+ 	font-family: 'Mulish';
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+ 
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+   
+h2 a {
+	background-image: url("fotocaminhao.jpg");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: auto;
+}
+
+h3 {
+	background-image: url(imgtxt.jpg);
+	background-attachment: scroll;
+	background-repeat:no-repeat;
+	background-size: 33%;
+	/*margin: 20px;
+	position: relative;
+	top: 929px;
+	left: 300px;*/
+}
+
+.sobre1 {
+	background: #27211e;
+	left: 400px;
+	padding: 50px;
+	margin: 200px 300px 90px 650px;
+	font-size: 15px;
+	Display:inline-block;
+	object-fit: cover;
+}
+
+/*.imagemtxt {
+	width: 33%;
+	margin: 20px;
+	position: relative;
+	top: 929px;
+	left: 300px;
+}*/
+
+.sobre-impresa {
+	Display:inline-block;
+	color: #727557;
+	font-size: 25px;
+}
+
+.sobre-impresa2 {
+	color: #FFFFFF;
+}
+
+.cor-verde {
+	background: #727557;
+	Display:inline-block;
+	margin: 0 0 -11px 0;
+}
+
+img p {
+	display: inline-block;
+}
+
+.nome {
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.nome:hover {
+    opacity: 0.5;
+}
+
+.texto-principal {
+	margin: 100px 200px 100px 100px;
+	font-size: 50px;
+	color: #FFFFFF;
+	float: left;
+	font-family: 'Bebas Neue';
+	padding: 200px;
+}
+
+.texto {
+   font-family: 'Mulish';
+   color: #FFFFFF;
+   padding: auto;
+   font-size: 25px;
+   float: left;
+   text-align: center;
+}
+
+.imagem2 {
+	width: 1357px;
+	margin: -11px 0 -8px -8px;
+}
+
+.texto-principal-mapa {
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	top: 1730px;
+	left: 550px;
+	text-align: center;
+}
+
+.texto2 {
+	font-size: 20px;
+	position: absolute;
+	top: 1850px;
+	left: 380px;
+}
+
+.texto3 {
+	font-size: 20px;
+	position: absolute;
+	top: 1890px;
+	left: 500px;
+}
+
+.texto4 {
+	font-size: 20px;
+	position: absolute;
+	top: 1940px;
+	left: 530px;
+	margin: 10px;
+}
+
+.mapa {
+	width: 940px;
+	margin: 0;
+	position: absolute;
+	top: 2000px;
+	left: 200px;
+}
+
+footer {
+    text-align: center;
+    /*background: url(bg.jpg);*/
+    padding: 80px 0;
+}
+
+.rodapé {
+	font-weigth: bold;
+	position: relative;
+	top: -30px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.input-padrao {
+	display: block;
+	background: #27211e;
+	margin: 20px 0 20px 300px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.enviar {
+	width: 40%;
+	padding: 17px;
+	position: relative;
+	background: #FFFFFF;
+	color: #27211e;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+    opacity: 0.3;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    position: relative;
+    top: 120px;
+    margin: 20px 0 0;
+}
+
+@media screen and (max-width: 1024px) { 
+    .caixa, .caixa-alta {
+        width: auto;
+    }
+
+    h1, .texto-principal-mapa, .texto2, .texto3, .texto4 {
+    	text-align: center;
+    }
+
+    nav, .imagem2 {
+    	position: static;
+    	text-align: center;
+    }
+
+    .caixa-alta, .mapa {
+    	width: 100%;
+    }    
+} 
